@@ -17,7 +17,9 @@ let answers = [];
 let index = 0;
 
   
-
+/* Create a function and run it recursively if there are more that one question
+to ask to avoid nesting rl.questions. The return paragraph had to be in scope here
+*/
 const ask = function(index) {
   let returnParagraph = `
 ${answers[0]} likes the activity ${answers[1]}. ${answers[0]} is listening to ${answers[2]} a lot recently.
